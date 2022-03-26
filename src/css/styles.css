@@ -1,0 +1,155 @@
+/* Base CSS */
+/* Reset CSS */
+@import url("https://unpkg.com/reset-css@5.0.1/reset.css");
+/* Font Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: content-box;
+  font-size: 16px;
+  color: #333;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.bl {
+  font-weight: 900;
+  letter-spacing: 0.3px;
+}
+
+p {
+  line-height: 1.5;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  font-weight: 500;
+}
+header ul {
+  display: flex;
+}
+header a {
+  display: block;
+  padding: 32px;
+  text-decoration: none;
+  color: inherit;
+}
+header a:hover {
+  background: aquamarine;
+  transition: 0.3s;
+}
+
+/* Hero */
+.hero {
+  margin: 200px 10%;
+}
+.hero span {
+  color: transparent;
+  -webkit-text-stroke: 1px #333333;
+}
+
+/* Banner Projets*/
+.hero-content {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(48, 52, 67, 0.8);
+  color: #FFF;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+.pd-100 {
+  padding: 100px 10%;
+}
+
+.first-section {
+  display: flex;
+  gap: 150px;
+  padding: 100px 10%;
+  line-height: 30px;
+}
+
+.projets-section {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 32px;
+  flex: 1;
+}
+.projets-section img {
+  width: 500px;
+  border: 3px solid transparent;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+}
+.projets-section img:hover {
+  border: 3px solid #333;
+  border-radius: 24px;
+  transition: 0.5s;
+}
+.projets-section a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 2;
+}
+.projets-section a:hover {
+  transition: 0.3s;
+}
+
+.contact-section {
+  display: flex;
+  gap: 150px;
+  line-height: 1.5;
+}
+.contact-section .line {
+  height: 2px;
+  background: #333333;
+  margin-bottom: 10px;
+}
+.contact-section a {
+  color: inherit;
+  text-decoration: none;
+}
+.contact-section a:hover {
+  color: rgba(51, 51, 51, 0.8);
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 1000px) {
+  .first-section {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

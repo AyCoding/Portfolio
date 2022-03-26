@@ -1,0 +1,134 @@
+/* Base CSS */
+@import "scss/base";
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+  font-weight: 500;
+
+  ul {
+    display: flex;
+  }
+
+  a {
+    display: block;
+    padding: 32px;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      background: aquamarine;
+      transition: .3s;
+    }
+  }
+}
+
+
+/* Hero */
+.hero {
+  margin: 200px 10%;
+
+  span {
+    color: transparent;
+    -webkit-text-stroke: 1px #333333;
+  }
+}
+
+/* Banner Projets*/
+.hero-content {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(#303443, .8);
+  color: #FFF;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+.pd-100 {
+  padding: 100px 10%;
+
+}
+
+.first-section {
+  display: flex;
+  gap: 150px;
+  padding: 100px 10%;
+  line-height: 30px;
+}
+
+.projets-section {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 32px;
+  flex: 1;
+
+
+  img {
+    width: 500px;
+    border: 3px solid transparent;
+    box-shadow: 0 0 4px rgba(#000, .25);
+    border-radius: 24px;
+
+    &:hover {
+      border: 3px solid #333;
+      border-radius: 24px;
+      transition: .5s;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 2;
+
+    &:hover {
+      transition: .3s;
+
+    }
+  }
+}
+
+.contact-section {
+  display: flex;
+  gap: 150px;
+  line-height: 1.5;
+
+  .line {
+    height: 2px;
+    background: #333333;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: rgba(#333, .8);
+      transition: .3s;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .first-section {
+    flex-direction: column;
+    div {
+    }
+  }
+}
+
+
