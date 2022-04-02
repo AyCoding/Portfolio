@@ -47,15 +47,11 @@ header {
 
 .first-section {
   display: flex;
-  width: 100%;
+  text-align: center;
   justify-content: center;
   gap: 150px;
   padding: 100px 10%;
   line-height: 2;
-
-  h4 {
-    width: 75%;
-  }
 }
 
 .projets-section {

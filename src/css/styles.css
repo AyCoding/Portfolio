@@ -80,14 +80,11 @@ header a:hover {
 
 .first-section {
   display: flex;
-  width: 100%;
+  text-align: center;
   justify-content: center;
   gap: 150px;
   padding: 100px 10%;
   line-height: 2;
-}
-.first-section h4 {
-  width: 75%;
 }
 
 .projets-section {
