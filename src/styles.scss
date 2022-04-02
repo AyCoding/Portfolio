@@ -32,7 +32,8 @@ header {
 
 /* Hero */
 .hero {
-  margin: 200px 10%;
+  padding: 200px 10%;
+  //word-break: break-word;
 
   span {
     color: transparent;
@@ -130,5 +131,19 @@ header {
     }
   }
 }
+@media only screen and (max-width: 700px) {
+  .hero {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
 
+@media only screen and (max-width: 510px) {
+  .hero {
+    h1 {
+      font-size: 35px;
+    }
+  }
+}
 

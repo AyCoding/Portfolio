@@ -67,7 +67,7 @@ header a:hover {
 
 /* Hero */
 .hero {
-  margin: 200px 10%;
+  padding: 200px 10%;
 }
 .hero span {
   color: transparent;
@@ -147,6 +147,16 @@ header a:hover {
 @media only screen and (max-width: 1000px) {
   .first-section {
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .hero h1 {
+    font-size: 35px;
   }
 }
 
