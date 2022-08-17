@@ -95,8 +95,7 @@ main {
 
 #projets {
   display: flex;
-  justify-content: center;
-  width: 1560px;
+  width: 90%;
   max-width: 100%;
   margin: auto;
   gap: 30px;
