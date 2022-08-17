@@ -4,10 +4,11 @@
 /* Font Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   box-sizing: content-box;
   font-size: 16px;
-  color: #333;
+  color: #FFF;
+  background: #34113F;
 }
 
 * {
@@ -16,6 +17,7 @@ body {
 
 h1 {
   font-size: 50px;
+  font-weight: bold;
 }
 
 h2 {
@@ -30,134 +32,88 @@ h4 {
   font-size: 20px;
 }
 
-.bl {
-  font-weight: 900;
-  letter-spacing: 0.3px;
-}
-
-p {
-  line-height: 1.5;
-  font-family: "Ubuntu", sans-serif;
-}
-
 /* Header */
 header {
+  width: 100%;
+  height: 920px;
+}
+header .logo {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+header .logo h1 {
+  margin-bottom: 20px;
+}
+
+.outils {
+  width: 950px;
+  max-width: 100%;
+  margin: 150px auto;
+  text-align: center;
+}
+.outils .contain-outils {
+  margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 15px 30px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  flex-flow: wrap;
+  gap: 50px;
+}
+.test {
+  width: 80px;
+  height: 80px;
+  background: white;
+}
+
+.projets-button {
+  left: 0;
+  right: 0;
+  bottom: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.projets-button a {
+  display: flex;
   align-items: center;
-  width: 100%;
-  height: auto;
-  font-size: 20px;
-  font-weight: 500;
-}
-header ul {
-  display: flex;
-}
-header a {
-  display: block;
-  padding: 32px;
+  font-size: 30px;
+  color: #FFF;
   text-decoration: none;
-  color: inherit;
-  border-radius: 0 0 24px 24px;
+  gap: 15px;
 }
-header a:hover {
-  background: rgba(0, 0, 0, 0.05);
-  transition: 0.5s;
+.projets-button a:hover {
+  color: #8D8D92;
 }
 
-/* Hero */
-.hero {
-  padding: 200px 10%;
-}
-.hero span {
-  color: transparent;
-  -webkit-text-stroke: 1px #333333;
+main {
+  margin-bottom: 125px;
 }
 
-.pd-100 {
-  padding: 100px 10%;
-}
-
-.first-section {
+#projets {
   display: flex;
-  text-align: center;
   justify-content: center;
-  gap: 150px;
-  padding: 100px 10%;
-  line-height: 2;
+  width: 1560px;
+  max-width: 100%;
+  margin: auto;
+  gap: 30px;
+  flex-flow: wrap;
 }
-
-.projets-section {
-  display: flex;
-  height: auto;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  gap: 32px;
-  flex: 1;
+#projets div {
+  width: 400px;
+  height: 200px;
+  background: #FFF;
+  border-radius: 4px;
 }
-.projets-section div {
-  display: flex;
-  border: 3px solid transparent;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
-  border-radius: 24px;
-}
-.projets-section div h4 {
-  margin-top: 10px;
-}
-.projets-section div:hover {
-  border: 3px solid #333;
-  border-radius: 24px;
-  transition: 0.5s;
-}
-.projets-section div img {
-  max-width: 500px;
+#projets div a img {
   width: 100%;
-  border-radius: 24px;
-}
-.projets-section div a {
-  text-decoration: none;
-  color: inherit;
-  line-height: 2;
-}
-.projets-section div a:hover {
-  transition: 0.3s;
-}
-
-/* Contact Section*/
-.contact-section {
-  display: flex;
-  gap: 150px;
-  line-height: 1.5;
-}
-.contact-section .line {
-  height: 2px;
-  background: #333333;
-  margin-bottom: 10px;
-}
-.contact-section a {
-  color: inherit;
-  text-decoration: none;
-}
-.contact-section a:hover {
-  color: rgba(51, 51, 51, 0.8);
-  transition: 0.3s;
-}
-
-@media only screen and (max-width: 1000px) {
-  .first-section {
-    flex-direction: column;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .hero h1 {
-    font-size: 40px;
-  }
-}
-@media only screen and (max-width: 510px) {
-  .hero h1 {
-    font-size: 35px;
-  }
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 4px;
 }
 
 /*# sourceMappingURL=styles.css.map */
