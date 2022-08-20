@@ -15,7 +15,6 @@ header {
     h1 {
       margin-bottom: 20px;
     }
-
   }
 }
 
@@ -34,21 +33,17 @@ header {
     border-radius: 4px;
     flex-flow: wrap;
     gap: 50px;
-    .test {
+  }
 
-    }
+  .test {
+    width: 80px;
+    height: 80px;
+    background: white;
   }
 }
 
 
-.test {
-  width: 80px;
-  height: 80px;
-  background: white;
-}
-
 .projets-button {
-  //position: absolute;
   left: 0;
   right: 0;
   bottom: 15%;
