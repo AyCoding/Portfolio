@@ -117,7 +117,6 @@ header .logo h1 {
   max-width: 400px;
   height: 200px;
   background: #FFF;
-  border-radius: 4px;
   overflow: hidden;
 }
 #projets div a img, #projets div a svg {
@@ -125,7 +124,6 @@ header .logo h1 {
   height: 100%;
   object-fit: cover;
   object-position: top;
-  border-radius: 4px;
 }
 #projets div a svg {
   color: #333;
