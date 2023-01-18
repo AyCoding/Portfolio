@@ -44,6 +44,10 @@ header {
       display: flex;
       //gap: 30px;
     }
+    a:hover img {
+      filter: grayscale(1);
+      transition: .3s;
+    }
   }
 
   .outils-icons {
